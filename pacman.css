@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: "Fjalla One";
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    color: white
+}
+
+h1 {
+    font-size: 72px;
+    color: rgb(212, 0, 255);
+}
+
+button {
+    color:  rgb(255, 0, 0);
+    border: solid;
+    border-width: 3px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 25px 60px;
+    font-size: 36px;
+    background-color: black;
+}
+
+button:hover {
+    color: rgb(255, 0, 140);
+    border: solid;
+    border-width: 3px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 25px 60px;
+    font-size: 36px;
+}
+
+.scoreTracker {
+    padding: 0px 15px 0px;
+}
+
+ul li {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding-bottom: 25px;
+}
+
+#score {
+    float:right;
+}
+
+fieldset {
+    border: none;
+    line-height: 150%;
+    font-size: 20px;
+}
+
+legend {
+    color:rgb(111, 0, 255);
+    font-size: 36px;
+    line-height: 125%;
+}
+
+hr {
+    border: dotted 1px rgb(111, 0, 255);
+}
+
+#hrId {
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+#submitButton, #nextButton {
+    font-size: 24px;
+    padding: 5px 10px;
+    color: rgb(255, 0, 140)
+}
+
+#submitButton:hover, #nextButton:hover {
+    font-size: 24px;
+    padding: 5px 10px;
+    color: rgb(255, 0, 0)
+}
+
+#nextButton {
+    float:right;
+    display: none;
+}
+
+.buttonBox {
+    padding-top: 20px;
+}
+
+.correctChoice, .incorrectChoice {
+    color: red;
+    border: dotted 1px red;
+    display: inline;
+    padding: 5px;
+    margin: 25px
+}
+
+.correctChoice {
+    color: rgb(0, 255, 0);
+    border: dotted 1px  rgb(0, 255, 0);
+}
+
+#finalScore {
+    color: white;
+}
+
+.finalBoxes {
+    padding: 25px;
+}
